@@ -1,10 +1,8 @@
 const express = require('express')
 const session = require('express-session')
 const usePassport = require('./config/passport')
-// const passport = require('passport')
 const exphbs = require('express-handlebars')
 const methodOverride = require('method-override')
-// const bcrypt = require('bcryptjs')
 const axios = require('axios')
 const app = express()
 const PORT = 3000
@@ -32,10 +30,6 @@ app.use((req, res, next) => {
   res.locals.user = req.user
   next()
 })
-
-// app.get('/', (req, res) => {
-//   res.render('index')
-// })
 
 app.get('/', (req, res) => {
   return Word.findAll({

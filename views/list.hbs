@@ -1,31 +1,31 @@
-<div class="text-center"> User Profile Page - Saved Words
-  <div class="card mx-auto center mt-3" style="width: 20rem;">
+{{!-- <div class="text-center"> User Profile Page - Saved Words </div> 
+<br> --}}
+
+  {{!-- <div class="card mx-auto center mt-3" style="width: 20rem;">
     <div class="card-body">
       <h5 class="card-title">{{name}}</h5>
       <h6 class="card-subtitle mb-2 text-muted">{{fl}}</h6>
       <p class="card-text">{{def}}</p>
-
-      {{!-- <a href="#" class="card-link">Card link</a>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-4 row justify-content-start">
-  <ul class="row list-unstyled ">
-    <li>
-      <strong>{{user.name}}</strong>
-      <p>{{user.email}}</p>
-      <a type="button" class="btn btn-primary" href="/users/{{user.id}}/edit">Edit</a>
-    </li>
-  </ul>
-</div>
-
-<div class="card mt-3">
-  <div class="card-header">{{user.words.length}} Words </div>
-  <div class="card-body">
-    {{#each user.name}}
-    <a class="text-decoration-none" href="/words/{{this.Word.id}}">
-    </a>
-    {{/each}}
   </div>
 </div> --}}
+
+<table class="table align-middle">
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Word</th>
+      <th scope="col">Part of Speech</th>
+      <th scope="col">Definition</th>
+    </tr>
+  </thead>
+  <tbody>
+    {{!-- {{#each users}} --}}
+    <tr>
+      <th scope="row">1</th>
+      <td class="align-middle">{{this.name}}</th>
+      <td class="align-middle">{{this.fl}}</td>
+      <td class="align-middle">{{this.def}}</td>
+    </tr>
+    {{!-- {{/each}} --}}
+  </tbody>
+  </table>
