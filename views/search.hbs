@@ -6,6 +6,9 @@
   </div>
   <div class="col-md-12 text-center mt-3">
     <form class="text-center mt-3" action="/list" method="POST">
+      <input name="name" value={{vocabularyId}} hidden />
+      <input name="def" value="{{vocabularyDef}}" hidden />
+      <input name="fl" value={{vocabularyFl}} hidden />
       <button class="btn btn-outline-info" type="submit">Save Word <i class="fas fa-plus"></i></button>
     </form>
     {{!-- <p></p>
