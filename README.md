@@ -2,9 +2,9 @@
 Build my own search and vocabulary list by using MySQL & sequelize.
 
 ## Project pages
-![Image text]([https://github.com/elliecw/my-vocabulary/blob/main/My%20Vocabulary%20Front%20Page.png]
-![Image text]([https://github.com/elliecw/my-vocabulary/blob/main/My%20Vocabulary%20V%20Page.png]
-![Image text]([https://github.com/elliecw/my-vocabulary/blob/main/My%20Vocabulary%20List.png]
+![Image text](https://github.com/elliecw/my-vocabulary/blob/main/My%20Vocabulary%20Front%20Page.png)
+![Image text](https://github.com/elliecw/my-vocabulary/blob/main/My%20Vocabulary%20V%20Page.png)
+![Image text](https://github.com/elliecw/my-vocabulary/blob/main/My%20Vocabulary%20List.png)
 
 ## Features
 1. Users can register an account and login with email and password.
