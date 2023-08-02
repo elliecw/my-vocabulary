@@ -42,12 +42,12 @@ Build my own search and vocabulary list by using MySQL & sequelize.
 - Node.js 18.16.0
 - Express 4.18.2
 - Express-Handlebars 7.0.7
-- axios: 1.4.0
-- Method-override: 3.0.0
-- bcryptjs: 2.4.3
-- mysql2: 3.4.3
-- passport: 0.6.0
-- passport-local: 1.0.0
+- axios 1.4.0
+- Method-override 3.0.0
+- bcryptjs 2.4.3
+- mysql2 3.4.3
+- passport 0.6.0
+- passport-local 1.0.0
 - Sequelize 6.32.1
 - Sequelize-cli 6.6.1
   
