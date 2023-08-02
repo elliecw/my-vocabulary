@@ -52,5 +52,5 @@ Build my own search and vocabulary list by using MySQL & sequelize.
 - Sequelize-cli 6.6.1
   
 ## Contributor
-> [elliecw](https://github.com/elliecw)
-> [Sam Lin](https://github.com/Swingcloud)
+- [elliecw](https://github.com/elliecw)
+- [Sam Lin](https://github.com/Swingcloud)
