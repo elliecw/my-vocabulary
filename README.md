@@ -53,3 +53,4 @@ Build my own search and vocabulary list by using MySQL & sequelize.
   
 ## Contributor
 > [elliecw](https://github.com/elliecw)
+> [Sam Lin](https://github.com/Swingcloud)
